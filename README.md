@@ -18,6 +18,7 @@ Make sure :
  * to have maven3 installed
  * mosquitto (or other MQTT server) installed anywhere
  * cron is running on your machine (needed for the server only)
+ * libssl-devel is installed (needed for the clock only)
 
 ### Compile
 Compile the entire project with `install-all.sh` script.
