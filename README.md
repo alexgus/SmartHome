@@ -11,9 +11,6 @@ The clock project can be found [here](https://github.com/alexgus/SmartHome-Clock
 
 # Quick Start
 ## Installation
- * Mosquitto (or other MQTT server) installed on your server machine.
- * Make sure cron is running on your server
- * Launch server with correct configuration file
- * Compile and launch the clock project
- 
-If installed on rapsberry pi, server and clock can be installed on the same host.
+ * Mosquitto (or other MQTT server) installed on your host.
+ * Make sure cron is running on your machine
+ * Compile and launch the project with `install-all.sh` script
