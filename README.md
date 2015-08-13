@@ -11,6 +11,9 @@ The clock project can be found [here](https://github.com/alexgus/SmartHome-Clock
 
 # Quick Start
 ## Installation
+ * Make sure you have valid build environement (includes, etc) otherwise install the corresponding package for your distribution (ubuntu : build-essential ; archlinux : base-devel ; etc)
+ * Make sure to have a JDK installed
+ * Make sure to have maven3 installed
  * Mosquitto (or other MQTT server) installed on your host.
  * Make sure cron is running on your machine
  * Compile and launch the project with `install-all.sh` script
