@@ -9,6 +9,13 @@ sudo make install
 cd ..
 
 echo ""
+echo " >> Install lib wiring pi"
+echo "*****************************"
+git clone git://git.drogon.net/wiringPi
+cd wiringPi
+./build
+
+echo ""
 echo " >> Install SmartHome-Clock"
 echo "*****************************"
 git clone https://github.com/alexgus/SmartHome-Clock.git
