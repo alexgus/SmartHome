@@ -22,4 +22,5 @@ echo ""
 echo " >> Uninstall SmartHome-Clock"
 echo "*****************************"
 rm SmartHome-Clock -Rf
-sudo rm -f /usr/bin/SmartHome-Clock
+sudo rm -f SmartHome-Clock
+sudo rm -f conf.json
