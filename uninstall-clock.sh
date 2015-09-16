@@ -10,6 +10,15 @@ cd ..
 sudo rm org.eclipse.paho.mqtt.c -Rf
 
 echo ""
+echo " >> Uninstall wiringPi"
+echo "*****************************"
+git clone git://git.drogon.net/wiringPi
+cd wiringPi/wiringPi
+sudo make uninstall
+cd ../..
+sudo rm wiringPi -Rf
+
+echo ""
 echo " >> Uninstall SmartHome-Clock"
 echo "*****************************"
 rm SmartHome-Clock -Rf
