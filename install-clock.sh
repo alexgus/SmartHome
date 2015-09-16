@@ -26,7 +26,7 @@ cd lib
 git clone https://github.com/nlohmann/json.git
 cp json/src/json.hpp .
 rm -Rf json
-cd SmartHome-Clock/Debug
+cd ../../Debug
 make
 cd ../..
 sudo cp SmartHome-Clock/Debug/SmartHome-Clock /usr/bin
