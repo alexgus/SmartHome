@@ -29,7 +29,8 @@ rm -Rf json
 cd ../../Debug
 make
 cd ../..
-sudo cp SmartHome-Clock/Debug/SmartHome-Clock /usr/bin
+cp SmartHome-Clock/Debug/SmartHome-Clock .
+cp SmartHome-Clock/conf.json .
 
 echo ""
 echo " >> Clean"
