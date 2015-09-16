@@ -14,6 +14,7 @@ The clock project can be found [here](https://github.com/alexgus/SmartHome-Clock
 ### Prerequisite
 Make sure :
  * you have valid build environement (includes, etc) otherwise install the corresponding package for your distribution (ubuntu : build-essential ; archlinux : base-devel ; etc)
+ * to have gcc >= 4.9 (needed for clock the only)
  * to have a JDK installed
  * to have maven3 installed
  * mosquitto (or other MQTT server) installed anywhere
