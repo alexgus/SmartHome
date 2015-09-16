@@ -20,6 +20,12 @@ echo ""
 echo " >> Install SmartHome-Clock"
 echo "*****************************"
 git clone https://github.com/alexgus/SmartHome-Clock.git
+cd SmartHome-Clock/src/
+mkdir lib
+cd lib
+git clone https://github.com/nlohmann/json.git
+cp json/src/json.hpp .
+rm -Rf json
 cd SmartHome-Clock/Debug
 make
 cd ../..
