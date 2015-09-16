@@ -14,6 +14,7 @@ echo "*****************************"
 git clone git://git.drogon.net/wiringPi
 cd wiringPi
 ./build
+cd ..
 
 echo ""
 echo " >> Install SmartHome-Clock"
@@ -29,3 +30,4 @@ echo " >> Clean"
 echo "*****************************"
 sudo rm org.eclipse.paho.mqtt.c -Rf
 sudo rm SmartHome-* -Rf
+sudo rm wiringPi -Rf
