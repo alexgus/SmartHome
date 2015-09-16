@@ -29,7 +29,7 @@ rm -Rf json
 cd ../../Debug
 make
 cd ../..
-cp SmartHome-Clock/Debug/SmartHome-Clock .
+cp SmartHome-Clock/Debug/SmartHome-Clock ./tmp
 cp SmartHome-Clock/conf.json .
 
 echo ""
@@ -38,3 +38,4 @@ echo "*****************************"
 sudo rm org.eclipse.paho.mqtt.c -Rf
 sudo rm SmartHome-* -Rf
 sudo rm wiringPi -Rf
+mv ./tmp ./SmartHome-Clock
