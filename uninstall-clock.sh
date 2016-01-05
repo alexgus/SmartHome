@@ -13,10 +13,10 @@ echo ""
 echo " >> Uninstall wiringPi"
 echo "*****************************"
 git clone git://git.drogon.net/wiringPi
-cd wiringPi/wiringPi
+cd WiringPi/wiringPi
 sudo make uninstall
 cd ../..
-sudo rm wiringPi -Rf
+sudo rm WiringPi -Rf
 
 echo ""
 echo " >> Uninstall SmartHome-Clock"

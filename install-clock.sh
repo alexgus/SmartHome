@@ -11,8 +11,8 @@ cd ..
 echo ""
 echo " >> Install lib wiring pi"
 echo "*****************************"
-git clone git://git.drogon.net/wiringPi
-cd wiringPi
+git clone https://github.com/WiringPi/WiringPi.git
+cd WiringPi
 ./build
 cd ..
 
